@@ -1,0 +1,23 @@
+SuccessConsole Output
+Started by user admin
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\FSD_Shruti
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/shruti3ringane/ProjectManager.git
+ > git.exe init C:\Program Files (x86)\Jenkins\workspace\FSD_Shruti # timeout=10
+Fetching upstream changes from https://github.com/shruti3ringane/ProjectManager.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/shruti3ringane/ProjectManager.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe config remote.origin.url https://github.com/shruti3ringane/ProjectManager.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/shruti3ringane/ProjectManager.git # timeout=10
+Fetching upstream changes from https://github.com/shruti3ringane/ProjectManager.git
+ > git.exe fetch --tags --progress https://github.com/shruti3ringane/ProjectManager.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision e5afb06c0d6405e95cc0157b016d431d92f1903b (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f e5afb06c0d6405e95cc0157b016d431d92f1903b
+Commit message: "Initial commit"
+First time build. Skipping changelog.
+Finished: SUCCESS
